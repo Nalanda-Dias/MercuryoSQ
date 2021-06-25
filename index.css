@@ -402,6 +402,10 @@ label[for="Botão_Menu"]
 /*Configuração para tela do celular*/
 @media only screen and (max-width: 600px)
 {
+	body
+	{
+		overflow-x: hidden;
+	}
 	/*Botão do Menu*/
 	label[for="Botão_Menu"]
 	{
@@ -454,7 +458,7 @@ label[for="Botão_Menu"]
  	#Barra_Navegação a /*Nav + a*/
 	{
 		margin-left: -15px;
-		font-size: 3.5vw;
+		font-size: 3.0vw;
 	}
 
  	#Logo /*Img*/
@@ -503,19 +507,18 @@ label[for="Botão_Menu"]
 		width: 500px;
 		margin-top: 250px;/*Espaço entre o header e o footer*/
 	}
-	
 	#Texto
 	{
-		margin-left: -20px;
+		margin-right: 50px;
+		margin-left: -60px;
 		font-size:2.0vw ;
 	}
-
 	#Icon
 	{
 		margin-top: 10px;
 		margin-left: 10px;
 		margin-right: 5px;
-		width: 30px; /*Largura das redes sociais*/
+		width: 25px; /*Largura das redes sociais*/
 	}
 
 }
