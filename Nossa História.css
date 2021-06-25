@@ -140,6 +140,12 @@ label[for="Botão_Menu"]
 }
 
 /*Imagens da Missão, Visão e Valores*/
+#tabelas
+{
+	display: block;
+	float: center;
+	padding: 5px;
+}
 #MVV
 {
 	width: 150px; /*Largura da imagem*/
@@ -153,7 +159,6 @@ label[for="Botão_Menu"]
 	text-align: center; /*Textos centralizados*/
 	font-size: 1.4vw; /*Tamnho da fonte*/
 	font-family: cursive; /*Tipo da fonte*/
-	float: center;
 }
 
 /*Footer*/
