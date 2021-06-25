@@ -449,13 +449,14 @@ label[for="Botão_Menu"]
 	#História
 	{
 		width: 400px; /*Largura da história*/
-		font-size: 2.5vw; /*Tamanho da fonte*/
+		font-size: 3.5vw; /*Tamanho da fonte*/
 		margin-left: 35px; /*Espaço entre o brower esquerdo*/
+		font-family: 'Arial';
 	}
 
 	#Titulo
 	{
-		font-size: 4.5vw; /*Tamnho da fonte*/
+		font-size: 3.5vw; /*Tamnho da fonte*/
 	}
 
 	#MVV
@@ -465,7 +466,8 @@ label[for="Botão_Menu"]
 
 	#Textos-MVV
 	{
-		font-size: 2.5vw; /*Tamanho da fonte dos textos*/
+		font-size: 5.5vw; /*Tamanho da fonte dos textos*/
+		font-family: 'Arial';
 	}
 	/*Footer*/
 	#Rodapé
