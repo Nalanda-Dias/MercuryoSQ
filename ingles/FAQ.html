@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0"/>
+    <meta name="author" content="Nalanda Dias"/>
+	<meta charset="utf-8">
+	<title>Mercuryo S&Q</title>
+	<link rel="stylesheet" type="text/css" href="FAQ.css"/>
+</head>
+<body>
+	<header id = "Cabeçalho">
+		<input type="checkbox" id = "Botão_Menu">
+		<label for = "Botão_Menu">&#9776;</label>
+		<img id = "Logo" src = "Logo.png">
+		 <label id = "Inglês"><a href="../FAQ.html"><img src="Brasil.png"/></a></label>
+		<!--Barra de Navegação-->
+		<nav id = "Barra_Navegação">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#">About Us</a>
+				<ul>
+					<li><a href="Nossa História.html">Our story</a></li>
+					<li><a href="Conheça nossa equipe.html">Meet our team</a></li>
+				</ul>
+				</li>
+				<li><a href="#">Portfolio</a>
+				<ul>
+					<li><a href="Serviços.html">Services</a></li>
+					<li><a href="Parceiros.html">Partners</a></li>
+					<li><a href="#Clientes">Client</a></li>
+				</ul>
+				</li>
+				<li><a href="FAQ.html">FAQ</a></li>
+				<li><a href="Contato.html">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<p id="Titulo">Common questions</p>
+	<section>
+		<button class="Pergunta">1. How can I contact Mercuryo S&Q?</button>
+		<section id="Resposta">
+			<br/>
+			<p id="Resp">Social Networks, through the Contact tab, there you have the option to send your doubts to the team when requesting a quote or by going to our company.</p>
+		</section>
+		<button class="Pergunta">2. What services does Mercuryo S&Q offer?</button>
+		<section id="Resposta">
+			<br/>
+			<p id="Resp">Software Development, Digital Designer, Database, Systems Analysis and Website Creation. In the Services tab, we explain better each service of our company.</p>
+		</section>
+		<button class="Pergunta">3. What is the value of a system?</button>
+		<section id="Resposta">
+			<br/>
+			<p id="Resp">We do not have a specific value because the value depends on what the customer requests, for more information please contact our quotations team.</p>
+		</section>
+		<button class="Pergunta">4. What types of languages does Mercuryo S&Q work on in Systems development?</button>
+		<section id="Resposta">
+			<br/>
+			<p id="Resp">We work with C# and Java language.</p>
+		</section>
+		<button class="Pergunta">5. What are the payment methods?</button>
+		<section id="Resposta">
+			<br/>
+			<p id="Resp">Money, debit and credit card, pix and bank slip.</p>
+		</section>
+	</section>
+	<script>
+            var acc = document.getElementsByClassName("Pergunta");
+            var i;
+
+            for (i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var Respostas = this.nextElementSibling;
+                    if (Respostas.style.maxHeight) {
+                        Respostas.style.maxHeight = null;
+                    } else {
+                        Respostas.style.maxHeight = Respostas.scrollHeight + "px";
+                    } 
+                });
+            }
+        </script>
+	<footer id="Rodapé">
+		<ul>
+			<li><a href="https://www.facebook.com/mercuryo.sq"><img id="Icon" src="Facebook.png"></a></li>
+			<li><a href="https://www.instagram.com/mercuryo.sq/"><img id="Icon" src="Instagram.png"></a></li>
+			<li><a href="https://www.linkedin.com/company/mercuryo-s-q/"><img id="Icon" src="Linkedin.png"></a></li>
+		</ul>
+		<p id="Texto">@Copyright 2021 Mercuryo S&Q - Accelerating your quality</p>
+	</footer>
+</body>
+</html>

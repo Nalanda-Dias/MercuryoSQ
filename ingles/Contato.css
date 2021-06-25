@@ -1,0 +1,641 @@
+/*Configurando tudo*/
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	background: rgb(222, 226, 230);
+	overflow-x: hidden; /*SEm barra de rolagem*/
+}
+
+#Cabeçalho /*Header*/
+{
+	background-color: rgb(2, 25, 35); /*Cor de fundo do header*/
+	height: 90px; /*Altura do header*/
+}
+
+#Logo /*Img*/
+{
+	width: 11%; /*Largura da logo*/
+	padding: 13px; /*Espaço entre a logo e o header*/
+	margin-left: 100px; /*Espaço entre o brower esquerdo e a logo*/
+}
+
+
+#Barra_Navegação /*Nav*/
+{
+	margin-left: 300px; /*Espaço entre o brower esquerdo a o nav*/
+	margin-top: -80px; /*Espaço entre o topo do brower e o Nav */
+}
+
+#Barra_Navegação ul /*Nav + ul*/
+{
+	list-style: none; /*Sem marcadores*/
+	position:  relative;
+}
+
+#Barra_Navegação ul li /*Nav + ul + li*/
+{
+	width: 150px; /*Espaço entre as os Titulo da Nav*/
+	float: left; /*Lado a lado*/
+}
+
+#Barra_Navegação a /*Nav + a*/
+{
+	padding: 15px; /*Espaço entre o a = link e o header*/
+	font-family: cursive; /*Tipo de fonte*/
+	display: block; /*Muda o comportamento do espaçamento do a  = link*/
+	color: rgb(255, 255, 255); /*Cor da fonte*/
+	text-decoration: none; /*Sem sublinhado*/
+	text-align: center; /*Centralizado*/
+}
+
+/*Faz as opções sumirem*/
+#Barra_Navegação ul ul /*Nav + ul + ul*/
+{
+	position: absolute;
+	visibility: hidden; /*As opções sumem*/
+}
+
+/*Faz as opções aparecerem*/
+#Barra_Navegação ul li:hover ul /*Nav + ul + li + ul*/
+{
+	visibility: visible; /*As opções voltam em baixo de cada Menu*/
+}
+
+#Barra_Navegação a:hover
+{
+	background-color: rgb(255, 255, 255); /*Cor do hover*/
+	color: rgb(0, 166, 251); /*Cor da fonte com hover*/
+}
+
+#Barra_Navegação ul ul li /*Nav + ul + ul + li*/
+{
+	float:  none; /*Deixa as opções uma em baixo da outra*/
+	border-bottom: solid 1px rgb(204, 204, 204) ; /*Borda nas opções*/
+}
+
+#Barra_Navegação ul ul li a /*Nav + ul + ul + ul + a*/
+{
+	background-color: rgb(5, 25, 35); /*Cor de fundo das opções*/
+	text-align: center;
+}
+ 
+#Inglês
+{
+	margin-right: 150px; /*Espaço entre o brower direito e a logo do inglês*/
+	margin-top: 21px; /*Espaço entre o topo do brower e a logo do Inglês*/
+	float: right; /*Posicionado a direita*/
+}
+/*Configurando o botão do site em max-width: 800px*/ 
+label[for="Botão_Menu"]
+{
+	color: rgb(255, 255, 255); /*Cor do botão do */
+	display: none; /*O label do botão desaparece no max-width: 1148px*/
+	cursor: pointer; /*Mostra o usuario que dá pra clicar*/
+	font-size: 4.5vw; /*Tamanho do botão*/
+	height: 55px; /*Largura do botão*/
+}
+
+#Botão_Menu
+{
+	display: none; /*O input desaparece no max-width: 1148px*/
+}
+
+/*Conteudo da página*/
+#Titulo
+{
+	font-family: cursive; /*Tipo de fonte*/
+	font-size: 3.4vw; /*Tamanho da fonte do titulo*/
+	font-weight: bold; /*Em negrito*/
+	text-align: center; /*Centralizado*/
+	margin-top: 50px; /*Espaço entre o topo do brower  e o titulo*/
+	animation: titulo 2s 5; /*Tempo de animação*/
+	animation-direction: alternate-reverse; /*Estilo da animação*/
+	animation-iteration-count: 2; /*Quantidade que a animação roda*/
+}
+
+@keyframes titulo
+{
+	from {
+		opacity: 0; /*nivel de tranparencia, aqui tá invisivel*/
+		transform: translateX(100px);
+	}
+	to{
+		opacity: 2;
+		transform: translateX(0px);
+	}
+}
+
+#Titulo1
+{
+	font-family: cursive; /*Tipo de fonte*/
+	font-size: 2.4vw; /*Tamanho da fonte do titulo*/
+	font-weight: bold; /*Em negrito*/
+	margin-top: 50px; /*Espaço entre o topo do brower  e o titulo*/
+	margin-left: 180px;
+}
+
+/*Formulario*/
+table
+{
+	margin-top: 1px; /*Espaço entre o topo do brower e o formulário */
+	margin-left: 250px; /*Espaço entre o brower esquerdo e o formulário*/
+
+}
+label
+{
+	margin-left: -180px; /*Espaço entre o brower esquerdo e o label/titulos das caixa de texto*/
+	font-family: cursive; /*Tipo de fonte*/
+}
+
+input[type=text], input[type=email]
+{
+  	padding: 12px 20px;
+  	margin: 8px 0;
+  	box-sizing: border-box;
+  	width: 290px; /*Largura da caixa de escreve o nome completo*/	
+}
+
+input
+{
+	height: 16px; /*Altura do input*/
+	font-family: cursive; /*Tipo de fonte*/
+	margin: 8px 0; /*Margem geral*/
+	margin-left: -150px; /*Espaço entre o brower esquerdo e o input*/
+	text-align: left; /*Texto localizado a esquerda*/
+}
+
+#txtnome
+{
+	margin-left: 19px; /*Espaço entre o brower esquerdo e nome completo*/
+}
+
+select
+{
+	padding: 6px 20px; /*ESpaço ao redor das opçõpes*/
+	margin: 8px 0; /*Margem geral das opções*/
+  	box-sizing: border-box; /**/
+  	margin-left: -290px; /*Espaço entre o brower esquerdo e as opções*/
+}
+
+#txtdo
+{
+  	margin-left: -145px; /*Espaço entre o brower esquerdo e o descreva*/
+  	width: 370px; /*Largur da caixa de texto*/
+}
+
+#txttelefone
+{
+	margin-left: -292px; /*Espaço entre o Numero de teledone e a caixa de text*/
+	width: 160px; /*Largura da caixa de telefone*/
+}
+
+#txtemail
+{
+	margin-left: -290px; /*Espaço entre o brower esquerdo e o email*/
+}
+
+section
+{
+    width: 650px; /*Largura das formulário*/
+    margin-top: 30px; /*Espaço entre o topo e o form*/
+    margin-left: 30%; /*Espaço entre o brower esquerdo e o form*/
+}
+
+#Botões
+{
+	text-align: center; /*Botões centralizados*/
+	height: 100px; /*Altura dos botões até a caixa de texto*/
+	width: 120px; /*Espaço entre os botões*/
+}
+
+input[type=reset], input[type=submit]
+	{
+		width: 80px; /*Largura do botões*/
+		height: 40px; /*Altura dos botões*/
+		border-radius: 10px; /*Bordas arredondadas*/
+		font-family: cursive; /*Tipo de fonte*/
+		font-size: 1.5vw; /*Tamanho da fonte*/
+		margin-left: -355px; /*Espaço entre o broquer esquerdo e os botões*/
+		background-color: rgb(5, 25, 35); /*Cor de fundo dos botões*/
+		color: rgb(255, 255, 255); /*Cor da fonte*/
+		text-align: center; /*Texto centralizado*/
+
+	}
+
+/*Localização*/
+iframe
+{
+	margin-top: 80px; /*Espaço entre o mapa e o topo do brower*/
+	margin-left: -145px; /*Espaço entre o mapa e a esquerda do brower*/
+
+}
+
+/*Footer*/
+#Rodapé
+{
+	background-color: rgb(5, 25, 35); /*Cor de fundo do Footer*/
+	margin-top: 5%; /*Distancia entre o footer e o topo do brower*/
+	height: 90px; /*Altura do footer*/
+	width: 100%; /*Largura do footer*/
+}
+
+#Rodapé ul /*Footer + ul*/
+{
+	list-style: none; /*Sem marcadores*/
+	float: right; /*Posicionados a direita*/
+}
+
+#Rodapé li:hover /*Footer + li*/
+{
+	transform: translateY(-10px); /*Quando o mouse passar em cima, a redes social sobe*/
+}
+
+#Rodapé ul li /*Footer + ul + li*/
+{
+	float: left; /*redes sociais colocada lado a lado*/
+	margin-left: -50px;/*Espaço entre as redes sociais*/
+	margin-top: 15px; /*Espaço entre o topo do footer e as redes sociais*/
+	margin-right: 60px; /*Distancia da direita do footer e as redes sociais*/
+}
+
+#icon
+{
+	width: -500px; /*Largura das redes sociais*/
+}
+
+#Texto
+{
+	color: rgb(255, 255, 255); /*Cor da fonte*/
+	text-align: center; /*Texto centralizado*/
+	font-family: cursive; /*Tipo de fonte*/
+	font-size: 1.3vw; /*Tamanho da fonte*/
+	padding: 33px; /*Distacia entre o topo do footer e o texto*/
+}
+
+/*Configuração para tela do computador de 2000px*/
+@media only screen and (max-width: 2000px)
+{
+	#Barra_Navegação /*Nav*/
+	{
+		margin-left: 600px; /*Espaço entre o brower esquerdo a o nav*/
+	}
+	#Logo /*Img*/
+	{
+		width: 7%; /*Largura da logo*/
+	}
+
+	table
+	{
+		margin-left: 360px; /*Espaço entre o brower esquerdo e o formulário*/
+	}
+
+	label
+	{
+		font-size: 20px;
+	}
+	input[type=reset], input[type=submit]
+	{
+		width: 110px; /*Largura do botões*/
+		height: 50px; /*Altura dos botões*/
+	}
+
+	iframe
+	{
+		margin-top: 80px; /*Espaço entre o mapa e o topo do brower*/
+		margin-left: 10px; /*Espaço entre o mapa e a esquerda do brower*/
+	}
+
+	#Titulo1
+	{
+		margin-left: 280px;
+	}
+	
+}
+/*Configuração para tela do computador de 1024px*/
+@media only screen and (max-width: 1280px)
+{
+	#Barra_Navegação /*Nav*/
+	{
+		margin-left: 300px; /*Espaço entre o brower esquerdo a o nav*/
+		margin-top: -77px; /*Espaço entre o topo do brower e o Nav */
+	}
+
+	#Barra_Navegação ul li /*Nav + ul + li*/
+	{
+		 /*Espaço entre as os Titulo da Nav*/
+	}
+
+	#Barra_Navegação ul ul li /*Nav + ul + ul + li*/
+	{
+		border: none;
+	}
+	#Logo /*Img*/
+	{
+		width: 11%; /*Largura da logo*/
+		margin-top: -3px; /*Espaço entre o topo do brower e a logo*/
+	}
+
+	table
+	{
+		margin-left: 200px; /*Espaço entre o brower esquerdo e o formulário*/
+	}
+
+	iframe
+	{
+		margin-left: -130px; /*Espaço entre o mapa e a esquerda do brower*/
+	}
+
+	#Titulo1
+	{
+		margin-left: 180px;
+	}
+	
+}
+/*Configuração para tela do computador de 1024px*/
+@media only screen and (max-width: 1024px)
+{
+	#Barra_Navegação /*Nav*/
+	{
+		margin-left: 220px; /*Espaço entre o brower esquerdo a o nav*/
+		margin-top: -70px; /*Espaço entre o topo do brower e o Nav */
+	}
+
+	#Barra_Navegação ul li /*Nav + ul + li*/
+	{
+		width: 110px; /*Espaço entre as os Titulo da Nav*/
+	}
+	#Barra_Navegação a /*Nav + a*/
+	{
+		font-size: 1.4vw;/*Tamnho da fonte*/
+	}
+	#Logo /*Img*/
+	{
+		width: 11%; /*Largura da logo*/
+		margin-top: 5px; /*Espaço entre o topo do brower e a logo*/
+	}
+
+	table
+	{
+		margin-left: 150px; /*Espaço entre o brower esquerdo e o formulário*/
+	}
+
+	iframe
+	{
+		margin-left: -200px; /*Espaço entre o mapa e a esquerda do brower*/
+	}
+
+	#Titulo1
+	{
+		margin-left: 120px;
+	}
+
+}
+/*Configuração para tela do celular*/
+@media only screen and (max-width: 800px)
+{
+	/*Botão do Menu*/
+	label[for="Botão_Menu"]
+	{
+		display: block; /*Faz o botão aparacer*/
+		padding: 15px; /*Espaço entre a logo e o header*/
+		margin-left: 1px;
+	}
+
+ 	#Botão_Menu:checked ~ #Barra_Navegação
+ 	{
+ 		margin-left: 0; /*Faz com que o botão funcione*/
+ 	}
+
+ 	/*Barra de navegação*/
+ 	#Barra_Navegação
+ 	{
+ 		margin-top: -70px; /*Espaço entre o topo do brower e o Nav*/
+		margin-left: -100%; /*Espaço entre o brower esquerdo e nav*/
+		transition: all .3s; /*Entrada e saida do Nav*/
+		width: 20%; /*Largura do Nav*/
+		background-color: rgb(5, 25, 35);
+		text-align: center;
+		position: relative;
+ 	}
+
+ 	#Barra_Navegação ul li /*Nav + ul + li*/
+ 	{
+ 		float: none; /*Um embaixo do outro */
+ 	}
+
+ 	#Barra_Navegação ul ul
+ 	{
+ 		position: static; /*posicionado de acordo com o fluxo normal da página*/
+ 		max-height: 0; /*Deixa todos juntos, sem espaço*/
+ 		overflow: hidden;
+ 	}
+
+ 	#Barra_Navegação ul li:hover ul
+ 	{
+ 		height: auto; 
+		max-height: 200px;
+ 	}
+
+ 	#Barra_Navegação ul ul li /*Nav + ul + ul + li*/
+	{
+		border: none;
+	}
+
+ 	#Barra_Navegação a /*Nav + a*/
+	{
+		margin-left: 15px;
+	}
+
+ 	#Logo /*Img*/
+	{
+		width: 14%; /*Largura da logo*/
+		padding: 13px; /*Espaço entre a logo e o header*/
+		margin-left: 100px; /*Espaço entre o brower esquerdo e a logo*/
+		margin-top: -80px; /*Espaço entre o topo do brower e a logo*/
+		margin-bottom: 80px; /*Espaço entre a parte de baixo do header e a logo*/
+	}
+
+
+	input[type=reset], input[type=submit]
+	{
+		margin-left: -450px;
+	}
+
+	/*Idioma*/
+	#Inglês
+	{
+		margin-right: 120px; /*Espaço entre o brower direito e a logo do inglês*/
+		margin-top: -65px; /*Espaço entre o topo do brower e a logo do Inglês*/
+		float: right; /*Posicionado a direita*/
+	}
+
+	table
+	{
+		margin-left: 105px; /*Espaço entre o brower esquerdo e o formulário*/
+	}
+
+	iframe
+	{
+		width: 700px;
+		margin-left: -190px; /*Espaço entre o mapa e a esquerda do brower*/
+	}
+
+	#Titulo1
+	{
+		margin-left: 120px;
+	}
+
+	/*Footer*/
+	#Rodapé
+	{
+		margin-top: 150px;/*Espaço entre o header e o footer*/
+	}
+
+	#Icon
+	{
+		width: 50px; /*Largura das redes sociais*/
+	}
+
+	#Texto
+	{
+		margin-left: 150px; /*Espaço entre o brower esquerdo e Texto*/
+	}
+}
+
+/*Configuração para tela do celular*/
+@media only screen and (max-width: 600px)
+{
+	body
+	{
+		overflow-x: hidden;
+	}
+	/*Botão do Menu*/
+	label[for="Botão_Menu"]
+	{
+		display: block; /*Faz o botão aparacer*/
+		margin-left: 10px;
+		padding-left: 10px; /*Espaço entre a logo e o header*/
+		padding-top: 30px;
+	}
+
+ 	#Botão_Menu:checked ~ #Barra_Navegação
+ 	{
+ 		margin-left: 0; /*Faz com que o botão funcione*/
+ 	}
+ 	
+ 	#Cabeçalho
+ 	{
+ 		width: 500px;
+ 	}
+
+ 	/*Barra de navegação*/
+ 	#Barra_Navegação
+ 	{
+ 		margin-top: -70px; /*Espaço entre o topo do brower e o Nav*/
+		margin-left: -100%; /*Espaço entre o brower esquerdo e nav*/
+		transition: all .3s; /*Entrada e saida do Nav*/
+		width: 22%; /*Largura do Nav*/
+		background-color: rgb(5, 25, 35);
+		text-align: center;
+		position: relative;
+ 	}
+
+ 	#Barra_Navegação ul li /*Nav + ul + li*/
+ 	{
+ 		float: none; /*Um embaixo do outro */
+ 	}
+
+ 	#Barra_Navegação ul ul
+ 	{
+ 		position: static; /*posicionado de acordo com o fluxo normal da página*/
+ 		max-height: 0; /*Deixa todos juntos, sem espaço*/
+ 		overflow: hidden;
+ 	}
+
+ 	#Barra_Navegação ul li:hover ul
+ 	{
+ 		height: auto; 
+		max-height: 700px;
+ 	}
+
+ 	#Barra_Navegação a /*Nav + a*/
+	{
+		margin-left: -15px;
+		font-size: 4.0vw;
+		font-family: 'Arial';
+	}
+
+ 	#Logo /*Img*/
+	{
+		width: 25%; /*Largura da logo*/
+		padding: 13px; /*Espaço entre a logo e o header*/
+		margin-left: 100px; /*Espaço entre o brower esquerdo e a logo*/
+		margin-top: -95px; /*Espaço entre o topo do brower e a logo*/
+		margin-bottom: 80px; /*Espaço entre a parte de baixo do header e a logo*/
+	}
+
+	/*Idioma*/
+	#Inglês
+	{
+		width: 20px;
+		margin-right: 120px; /*Espaço entre o brower direito e a logo do inglês*/
+		margin-top: -80px; /*Espaço entre o topo do brower e a logo do Inglês*/
+		float: right; /*Posicionado a direita*/
+	}
+
+	/*Conteudo*/
+	input[type=reset], input[type=submit]
+	{
+		margin-left: -350px;
+	}
+	table
+	{
+		margin-left: 50px; /*Espaço entre o brower esquerdo e o formulário*/
+	}
+
+	iframe
+	{
+		width: 400px;
+		margin-left: -100px; /*Espaço entre o mapa e a esquerda do brower*/
+	}
+
+	label
+	{
+		font-size: 3.0vw;
+	}
+
+	#Titulo
+	{
+		font-size: 8.5vw; /*Tamnho da fonte*/
+	}
+	#Titulo1
+	{
+		font-size: 8.5vw; /*Tamnho da fonte*/
+		margin-left: 30px;
+	}
+
+	/*Footer*/
+	#Rodapé
+	{
+		width: 500px;
+		margin-top: 200px;/*Espaço entre o header e o footer*/
+	}
+	#Texto
+	{
+		margin-right: 50px; /*Espaço entre o brower direito e o texto*/
+		margin-left: -60px; /*Espaço entre o brower esquerdo e o texto*/
+		font-size:2.0vw ; /*Tamnho da fonte*/
+	}
+	#Icon
+	{
+		margin-top: 10px;
+		margin-left: 10px;
+		margin-right: 5px;
+		width: 25px; /*Largura das redes sociais*/
+	}
+}
