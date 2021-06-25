@@ -238,6 +238,26 @@ label[for="Botão_Menu"]
 		margin-left: 95px; /*Espaço entre o brower esquerdo e a história*/
 	}
 
+	#MVV
+	{
+		margin-top: 100px;
+		margin-left: 200px;
+	}
+
+	#Textos-MVV
+	{
+		width: 500px;
+		height: 100px;
+		padding-top: 100px;
+	}
+
+	#txt-mvv
+	{
+		margin-top: -80px;
+		margin-left: 100px;
+		float: left;
+	}
+
 }
 /*Configuração para tela do computador de 1024px*/
 @media only screen and (max-width: 1024px)
@@ -459,17 +479,32 @@ label[for="Botão_Menu"]
 		font-size: 8.5vw; /*Tamnho da fonte*/
 	}
 
+	table 
+	{
+		table-layout: auto;
+	}
+	
+	#txt-MVV
+	{
+		display: block;
+		margin-top: 100px;
+		margin-bottom: -100px;
+	}
 	#MVV
 	{
 		width: 200px; /*Largura das imagens*/
+		margin-left: -100px;
 	}
 
 	#Textos-MVV
 	{
 		font-size: 5.5vw; /*Tamanho da fonte dos textos*/
 		font-family: 'Arial';
-		margin-left: 30px;
+		display: block;
+		margin-left: -100px;
 	}
+
+
 	/*Footer*/
 	#Rodapé
 	{
