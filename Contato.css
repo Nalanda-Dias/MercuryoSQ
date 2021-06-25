@@ -611,11 +611,11 @@ iframe
 
 	#Titulo
 	{
-		font-size: 4.5vw;
+		font-size: 8.5vw; /*Tamnho da fonte*/
 	}
 	#Titulo1
 	{
-		font-size: 4.5vw;
+		font-size: 8.5vw; /*Tamnho da fonte*/
 		margin-left: 30px;
 	}
 
