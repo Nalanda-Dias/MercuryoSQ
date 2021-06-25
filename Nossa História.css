@@ -468,6 +468,7 @@ label[for="Botão_Menu"]
 	{
 		font-size: 5.5vw; /*Tamanho da fonte dos textos*/
 		font-family: 'Arial';
+		margin-left: 30px;
 	}
 	/*Footer*/
 	#Rodapé
