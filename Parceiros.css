@@ -235,8 +235,46 @@ label[for="Botão_Menu"]
 	{
 		margin-top: 200px;
 	}
+}
 
-/*Configuração para tela do computador de 1024px*/
+/*Configuração para tela do computador de 1386px*/
+@media only screen and (max-width: 1386px)
+{
+	#Barra_Navegação /*Nav*/
+	{
+		margin-left: 300px; /*Espaço entre o brower esquerdo a o nav*/
+		margin-top: -77px; /*Espaço entre o topo do brower e o Nav */
+	}
+
+	#Barra_Navegação ul li /*Nav + ul + li*/
+	{
+		 /*Espaço entre as os Titulo da Nav*/
+	}
+
+	#Barra_Navegação ul ul li /*Nav + ul + ul + li*/
+	{
+		border: none;
+	}
+	#Logo /*Img*/
+	{
+		width: 11%; /*Largura da logo*/
+		margin-top: -3px; /*Espaço entre o topo do brower e a logo*/
+	}
+
+	#Img-parceiros
+	{
+		width: 130px; /*Largura da imagem cliente*/
+		margin-left: 170px; /*Espaço entre o brower esquerdo e a imagem do cliente*/
+	}	
+
+	#Img-clientes
+	{
+		width: 150px; /*Largura da imagem cliente*/
+		margin-left: 240px; /*Espaço entre o brower esquerdo e a imagem do cliente*/
+	}	
+
+}
+/*Configuração para tela do computador de 1280px*/
 @media only screen and (max-width: 1280px)
 {
 	#Barra_Navegação /*Nav*/
@@ -399,7 +437,7 @@ label[for="Botão_Menu"]
 		width: 50px; /*Largura das redes sociais*/
 	}
 }
-	
+
 /*Configuração para tela do celular*/
 @media only screen and (max-width: 600px)
 {
@@ -489,7 +527,7 @@ label[for="Botão_Menu"]
 
 	#Clientes
 	{
-		font-size: 4.5vw;
+		font-size: 8.5vw; /*Tamnho da fonte*/
 	}
 
 	#Text
@@ -519,7 +557,6 @@ label[for="Botão_Menu"]
 		margin-right: 50px; /*Espaço entre o brower direito e o texto*/
 		margin-left: -60px; /*Espaço entre o brower esquerdo e o texto*/
 		font-size:2.0vw ; /*Tamnho da fonte*/
-		ont-family: 'Arial';
 	}
 	#Icon
 	{

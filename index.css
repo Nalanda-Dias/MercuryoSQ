@@ -220,7 +220,6 @@ label[for="Botão_Menu"]
 	{
 		margin-left: 44%; /*Espaço entre o brower esquerdo e os botões*/
 	}
-}
 
 /*Configuração para tela do computador de 1280px*/
 @media only screen and (max-width: 1386px)
@@ -263,7 +262,8 @@ label[for="Botão_Menu"]
 		margin-left: 44%; /*Espaço entre o brower esquerdo e os botões*/
 	}
 }
-/*Configuração para tela do computador de 1024px*/
+
+/*Configuração para tela do computador de 1280px*/
 @media only screen and (max-width: 1280px)
 {
 	#Barra_Navegação /*Nav*/
@@ -396,7 +396,7 @@ label[for="Botão_Menu"]
 
  	#Logo /*Img*/
 	{
-		width: 14%; /*Largura da logo*/
+		width: 20%; /*Largura da logo*/
 		padding: 13px; /*Espaço entre a logo e o header*/
 		margin-left: 100px; /*Espaço entre o brower esquerdo e a logo*/
 		margin-top: -80px; /*Espaço entre o topo do brower e a logo*/
@@ -439,6 +439,7 @@ label[for="Botão_Menu"]
 	{
 		width: 50px; /*Largura das redes sociais*/
 	}
+
 }
 
 /*Configuração para tela do celular*/
@@ -555,7 +556,6 @@ label[for="Botão_Menu"]
 		margin-right: 50px;
 		margin-left: -60px;
 		font-size:2.0vw ;
-		font-family: 'Arial';
 	}
 	#Icon
 	{

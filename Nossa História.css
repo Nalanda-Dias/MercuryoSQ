@@ -221,6 +221,26 @@ label[for="Botão_Menu"]
 		width: 1700px; /*Largura da História*/
 		margin-left: 155px; /*Espaço entre o brower esquerdo e a história*/
 	}
+
+	#MVV
+	{
+		margin-left: 200px;
+	}
+
+	#Textos-MVV
+	{
+		width: 620px;
+		height: 10px;
+		padding-top: 20px;
+	}
+
+	#txt-mvv
+	{
+		margin-top: -20px;
+		margin-left: 450px;
+		float: left;
+	}
+
 }
 
 /*Configuração para tela do computador de 1280px*/
@@ -344,6 +364,10 @@ label[for="Botão_Menu"]
 		margin-left: 65px; /*Espaço entre o brower esquerdo e a história*/
 	}
 
+	#txt-mvv
+	{
+		margin-left: 10px;
+	}
 }
 /*Configuração para tela do celular*/
 @media only screen and (max-width: 800px)
@@ -573,7 +597,6 @@ label[for="Botão_Menu"]
 		margin-right: 50px; /*Espaço entre o brower direito e o texto*/
 		margin-left: -60px; /*Espaço entre o brower esquerdo e o texto*/
 		font-size:2.0vw ; /*Tamnho da fonte*/
-		font-family: 'Arial';
 	}
 	#Icon
 	{
