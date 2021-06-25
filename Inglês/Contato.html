@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0"/>
+    <meta name="author" content="Nalanda Dias"/>
+	<meta charset="utf-8">
+	<title>Mercuryo S&Q</title>
+	<link rel="stylesheet" type="text/css" href="Contato.css"/>
+</head>
+<body>
+	<header id = "Cabeçalho">
+		<input type="checkbox" id = "Botão_Menu">
+		<label for = "Botão_Menu">&#9776;</label>
+		<img id = "Logo" src = "Logo.png">
+		 <label id = "Inglês"><a href="../Contato.html"><img src="Brasil.png"/></a></label>
+		<!--Barra de Navegação-->
+		<nav id = "Barra_Navegação">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#">About Us</a>
+				<ul>
+					<li><a href="Nossa História.html">Our story</a></li>
+					<li><a href="Conheça nossa equipe.html">Meet our team</a></li>
+				</ul>
+				</li>
+				<li><a href="#">Portfolio</a>
+				<ul>
+					<li><a href="Serviços.html">Services</a></li>
+					<li><a href="Parceiros.html">Partners</a></li>
+					<li><a href="#Clientes">Client</a></li>
+				</ul>
+				</li>
+				<li><a href="FAQ.html">FAQ</a></li>
+				<li><a href="Contato.html">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<p id="Titulo">Ask your questions or make a quote with us!</p>
+	<section>
+		<form>
+			<table>
+				<tr>
+					<td>
+						<label for="txtnome">*Full name:</label>
+						<input type="text" id="txtnome" name="txtnome" maxlength="40" placeholder="Type your name" autofocus required="">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="txttelefone">*Telephone:</label>
+					</td>
+					<td>
+						<input type="text" id="txttelefone" name="txttelefone" placeholder="Enter your phone" required>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="txtemail">*Email:</label>
+					</td>
+					<td>
+						<input type="email" id="txtemail" name="txtemail" placeholder="Type your e-mail" required>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="txtopção">*Choose the option:</label>
+					</td>
+					<td>
+						<select id="txtopção" name="txtopção" required>
+							<option>Select</option>
+							<option value="D">Doubts</option>
+							<option value="O">Budgets</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<br/>
+						<label for="txtserviços">Choose the services you want:</label>
+						<br/>
+						<input type="checkbox" id="txtds" name="txtds"/>Software development<br/>
+						<input type="checkbox" id="txtdd" name="txtdd"/>Digital Design<br/>
+						<input type="checkbox" id="txtbd" name="txtbd"/>Database<br/>
+						<input type="checkbox" id="txtas" name="txtas"/>Systems Analysis<br/>
+						<input type="checkbox" id="txtcs" name="txtcs"/>Website Creation
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<br/>
+						<label for="txtdo">*Describe your question or desired budget: </label>
+						<br/><br/>
+						<textarea cols="30" rows="5" id="txtdo" name="txtdo" placeholder="Type here" required></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td id="Botões" colspan="2">
+						<input type="submit" value="Submit"/>
+					</td>
+					<td id="Botões">
+						<input type="reset" value="Reset">
+					</td>
+				</tr>
+			</table>
+		</form>
+	</section>
+	<br/><br/><br/><br/>
+	<section>
+		<p id="Titulo1">Location</p>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.3221444192736!2d-46.730950684531585!3d-23.520913165986048!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef8c1d3806777%3A0x8d03885c01c45d8a!2sR.%20Guaip%C3%A1%2C%20678%20-%20Vila%20Leopoldina%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2002675-031!5e0!3m2!1spt-BR!2sbr!4v1623262642772!5m2!1spt-BR!2sbr" width="800" height="370" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+	</section>
+	<footer id="Rodapé">
+		<ul>
+			<li><a href="https://www.facebook.com/mercuryo.sq"><img id="Icon" src="Facebook.png"></a></li>
+			<li><a href="https://www.instagram.com/mercuryo.sq/"><img id="Icon" src="Instagram.png"></a></li>
+			<li><a href="https://www.linkedin.com/company/mercuryo-s-q/"><img id="Icon" src="Linkedin.png"></a></li>
+		</ul>
+		<p id="Texto">@Copyright 2021 Mercuryo S&Q - Accelerating your quality</p>
+	</footer>
+</body>
+</html>
