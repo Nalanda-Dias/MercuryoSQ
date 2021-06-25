@@ -800,7 +800,12 @@ label[for="Botão_Menu"]
 		margin-top: -80px; /*Espaço entre o topo do brower e a logo do Inglês*/
 		float: right; /*Posicionado a direita*/
 	}
-
+	#anima
+	{
+		animation: anima 0.3s 1.0s both;
+		overflow: hidden;
+		animation: initial none;
+	}
 	#Titulo
 	{
 		font-size: 8.5vw; /*Tamnho da fonte*/
