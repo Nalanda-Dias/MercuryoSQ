@@ -484,7 +484,7 @@ label[for="Botão_Menu"]
 	/*Conteudo*/
 	#Titulo
 	{
-		font-size: 4.5vw;
+		font-size: 8.5vw; /*Tamnho da fonte*/
 	}
 
 	#Clientes
@@ -519,6 +519,7 @@ label[for="Botão_Menu"]
 		margin-right: 50px; /*Espaço entre o brower direito e o texto*/
 		margin-left: -60px; /*Espaço entre o brower esquerdo e o texto*/
 		font-size:2.0vw ; /*Tamnho da fonte*/
+		ont-family: 'Arial';
 	}
 	#Icon
 	{
