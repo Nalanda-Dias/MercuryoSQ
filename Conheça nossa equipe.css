@@ -489,7 +489,8 @@ h3
  	#Barra_Navegação a /*Nav + a*/
 	{
 		margin-left: -15px;
-		font-size: 3.0vw;
+		font-size: 4.0vw;
+		font-family: 'Arial';
 	}
 
  	#Logo /*Img*/
