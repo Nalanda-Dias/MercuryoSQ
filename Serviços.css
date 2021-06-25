@@ -771,14 +771,14 @@ label[for="Botão_Menu"]
 	{
 		font-family: 'Arial';
 		font-size: 2.5vw;
-		padding-left: 185px; /*Espaço ao redor do conteudo a esquerda*/
+		padding-left: 165px; /*Espaço ao redor do conteudo a esquerda*/
 	}
 
 	#Legenda2 /*Titulo de desenvolvimento de sistemas*/
 	{
 		font-family: 'Arial';
 		font-size: 2.5vw;
-		padding-left: 150px; /*Espaço ao redor do conteudo a esquerda*/
+		padding-left: 130px; /*Espaço ao redor do conteudo a esquerda*/
 	}
 
 	#Text /*Analise + software + criação de site*/
@@ -793,9 +793,8 @@ label[for="Botão_Menu"]
 	{
 		font-family: 'Arial';
 		font-size: 2.5vw;
-		padding-left: 185px; /*Espaço ao redor do conteudo a esquerda*/
+		padding-left: 165px; /*Espaço ao redor do conteudo a esquerda*/
 	}
-
 	#Text1
 	{
 		font-family: 'Arial';
