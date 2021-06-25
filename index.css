@@ -398,8 +398,9 @@ label[for="Botão_Menu"]
 		width: 50px; /*Largura das redes sociais*/
 	}
 }
+
 /*Configuração para tela do celular*/
-@media only screen and (max-width: 400px)
+@media only screen and (max-width: 600px)
 {
 	/*Botão do Menu*/
 	label[for="Botão_Menu"]
@@ -417,7 +418,7 @@ label[for="Botão_Menu"]
  	
  	#Cabeçalho
  	{
- 		width: 800px;
+ 		width: 500px;
  	}
 
  	/*Barra de navegação*/
@@ -426,7 +427,7 @@ label[for="Botão_Menu"]
  		margin-top: -70px; /*Espaço entre o topo do brower e o Nav*/
 		margin-left: -100%; /*Espaço entre o brower esquerdo e nav*/
 		transition: all .3s; /*Entrada e saida do Nav*/
-		width: 20%; /*Largura do Nav*/
+		width: 22%; /*Largura do Nav*/
 		background-color: rgb(5, 25, 35);
 		text-align: center;
 		position: relative;
@@ -447,17 +448,17 @@ label[for="Botão_Menu"]
  	#Barra_Navegação ul li:hover ul
  	{
  		height: auto; 
-		max-height: 200px;
+		max-height: 700px;
  	}
 
  	#Barra_Navegação a /*Nav + a*/
 	{
-		margin-left: 15px;
+		margin-left: -15px;
 	}
 
  	#Logo /*Img*/
 	{
-		width: 13%; /*Largura da logo*/
+		width: 25%; /*Largura da logo*/
 		padding: 13px; /*Espaço entre a logo e o header*/
 		margin-left: 100px; /*Espaço entre o brower esquerdo e a logo*/
 		margin-top: -95px; /*Espaço entre o topo do brower e a logo*/
@@ -467,6 +468,7 @@ label[for="Botão_Menu"]
 	/*Idioma*/
 	#Inglês
 	{
+		width: 20px;
 		margin-right: 120px; /*Espaço entre o brower direito e a logo do inglês*/
 		margin-top: -80px; /*Espaço entre o topo do brower e a logo do Inglês*/
 		float: right; /*Posicionado a direita*/
@@ -475,35 +477,38 @@ label[for="Botão_Menu"]
 	/*Conteudo*/
 	#Conteudo
 	{
-		margin-left: 120px; /*Espaço entre a esquerda do brower e o conteudo*/
-		width: 550px;
-		font-size: 30px; /*Tamanho da fonte*/
+		margin-left: 65px; /*Espaço entre a esquerda do brower e o conteudo*/
+		width: 350px;
+		height: 70px;
+		font-size: 20px; /*Tamanho da fonte*/
 	}
 
 	#Imagens_Slides
 	{
-		width: 600px;
-		margin-left: 64px; /*ESpaço entre o brower esquerdo e as imagens*/
+		width: 350px;
+		height: 250px ;
+		margin-left: 65px; /*ESpaço entre o brower esquerdo e as imagens*/
 	}
 
 	#Botões_Slide
 	{
 		margin-top: -2px;
-		margin-left: 73%; /*Espaço entre o brower esquerdo e os botões*/
+		margin-left: 40%; /*Espaço entre o brower esquerdo e os botões*/
 	}
 
 	/*Footer*/
 	#Rodapé
 	{
-		width: 800px;
+		width: 500px;
 		margin-top: 150px;/*Espaço entre o header e o footer*/
 	}
 
 	#Icon
 	{
+		margin-top: 10px;
 		margin-left: 10px;
-		margin-right: 10px;
-		width: 50px; /*Largura das redes sociais*/
+		margin-right: 5px;
+		width: 30px; /*Largura das redes sociais*/
 	}
 
 }
