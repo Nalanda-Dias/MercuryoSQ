@@ -659,3 +659,163 @@ label[for="Botão_Menu"]
 	}
 
 }
+
+/*Configuração para tela do celular*/
+@media only screen and (max-width: 600px)
+{
+	body
+	{
+		overflow-x: hidden;
+	}
+	/*Botão do Menu*/
+	label[for="Botão_Menu"]
+	{
+		display: block; /*Faz o botão aparacer*/
+		margin-left: 10px;
+		padding-left: 10px; /*Espaço entre a logo e o header*/
+		padding-top: 30px;
+	}
+
+ 	#Botão_Menu:checked ~ #Barra_Navegação
+ 	{
+ 		margin-left: 0; /*Faz com que o botão funcione*/
+ 	}
+ 	
+ 	#Cabeçalho
+ 	{
+ 		width: 500px;
+ 	}
+
+ 	/*Barra de navegação*/
+ 	#Barra_Navegação
+ 	{
+ 		margin-top: -70px; /*Espaço entre o topo do brower e o Nav*/
+		margin-left: -100%; /*Espaço entre o brower esquerdo e nav*/
+		transition: all .3s; /*Entrada e saida do Nav*/
+		width: 22%; /*Largura do Nav*/
+		background-color: rgb(5, 25, 35);
+		text-align: center;
+		position: relative;
+ 	}
+
+ 	#Barra_Navegação ul li /*Nav + ul + li*/
+ 	{
+ 		float: none; /*Um embaixo do outro */
+ 	}
+
+ 	#Barra_Navegação ul ul
+ 	{
+ 		position: static; /*posicionado de acordo com o fluxo normal da página*/
+ 		max-height: 0; /*Deixa todos juntos, sem espaço*/
+ 		overflow: hidden;
+ 	}
+
+ 	#Barra_Navegação ul li:hover ul
+ 	{
+ 		height: auto; 
+		max-height: 700px;
+ 	}
+
+ 	#Barra_Navegação a /*Nav + a*/
+	{
+		margin-left: -15px;
+		font-size: 3.0vw;
+	}
+
+ 	#Logo /*Img*/
+	{
+		width: 25%; /*Largura da logo*/
+		padding: 13px; /*Espaço entre a logo e o header*/
+		margin-left: 100px; /*Espaço entre o brower esquerdo e a logo*/
+		margin-top: -95px; /*Espaço entre o topo do brower e a logo*/
+		margin-bottom: 80px; /*Espaço entre a parte de baixo do header e a logo*/
+	}
+
+	/*Idioma*/
+	#Inglês
+	{
+		width: 20px;
+		margin-right: 120px; /*Espaço entre o brower direito e a logo do inglês*/
+		margin-top: -80px; /*Espaço entre o topo do brower e a logo do Inglês*/
+		float: right; /*Posicionado a direita*/
+	}
+
+	#Titulo
+	{
+		font-size: 4.5vw; /*Tamanho da fonte*/
+	}
+
+	/*Conteudo*/
+	#text /*Explicaçaõ*/
+	{
+		margin-left: 40px;
+		font-size: 3.0vw;
+	}
+
+	#Imagens /*Analise + software + criação de site*/
+	{
+		width: 80px;
+		margin-left: 150px; /*Espaço entre o brower esquerdo e as imagens*/
+		margin-top: 100px;
+	}
+
+	#Imagens1 /*Banco de dados + Designer Digital */
+	{
+		width: 80px;
+		margin-left: -255px; /*Espaço entre o brower esquerdo e as imagens*/
+		margin-top: 150px;
+	}
+
+	#Legenda /*Titulo das imagens*/
+	{
+		font-size: 2.5vw;
+		padding-left: 255px; /*Espaço ao redor do conteudo a esquerda*/
+	}
+
+	#Legenda2 /*Titulo de desenvolvimento de sistemas*/
+	{
+		font-size: 2.5vw;
+		padding-left: 200px; /*Espaço ao redor do conteudo a esquerda*/
+	}
+
+	#Text /*Analise + software + criação de site*/
+	{
+		font-size: 2.5vw;
+		padding-right: 20px; /*Espaço ao redor do conteudo na direita*/
+		padding-left: 150px; /*Espaço ao redor do conteudo a esquerda*/
+	}
+
+	#Legenda1 /*Banco de dados + designer digital*/
+	{
+		font-size: 2.5vw;
+		padding-left: 65px; /*Espaço ao redor do conteudo a esquerda*/
+	}
+
+	#Text1
+	{
+		font-size: 2.5vw;
+		padding-right: 250px; /*Espaço ao redor do conteudo na direita*/
+		padding-left: 10px; /*Espaço ao redor do conteudo a esquerda*/
+	}
+
+	/*Footer*/
+	#Rodapé
+	{
+		width: 500px;
+		margin-top: 180px;/*Espaço entre o header e o footer*/
+	}
+	#Texto
+	{
+		margin-right: 50px; /*Espaço entre o brower direito e o texto*/
+		margin-left: -60px; /*Espaço entre o brower esquerdo e o texto*/
+		font-size:2.0vw ; /*Tamnho da fonte*/
+	}
+	#Icon
+	{
+		margin-top: 10px;
+		margin-left: 10px;
+		margin-right: 5px;
+		width: 25px; /*Largura das redes sociais*/
+	}
+
+}
