@@ -483,6 +483,7 @@ label[for="Botão_Menu"]
 	#Titulo
 	{
 		font-size: 8.5vw; /*Tamnho da fonte*/
+		font-size: 8.5vw; /*Tamnho da fonte*/
 	}
 
 	table 
@@ -522,6 +523,7 @@ label[for="Botão_Menu"]
 		margin-right: 50px; /*Espaço entre o brower direito e o texto*/
 		margin-left: -60px; /*Espaço entre o brower esquerdo e o texto*/
 		font-size:2.0vw ; /*Tamnho da fonte*/
+		font-family: 'Arial';
 	}
 	#Icon
 	{
