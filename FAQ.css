@@ -505,7 +505,7 @@ label[for="Botão_Menu"]
 	/*Conteudo*/
 	#Titulo
 	{
-		font-size: 4.5vw;
+		font-size: 8.5vw; /*Tamnho da fonte*/
 	}
 
 	.Pergunta
