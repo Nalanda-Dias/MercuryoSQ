@@ -153,6 +153,7 @@ label[for="Botão_Menu"]
 	text-align: center; /*Textos centralizados*/
 	font-size: 1.4vw; /*Tamnho da fonte*/
 	font-family: cursive; /*Tipo da fonte*/
+	float: center;
 }
 
 /*Footer*/
