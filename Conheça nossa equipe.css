@@ -520,6 +520,12 @@ h3
 	{
 		margin-left: 20px;
 		font-size: 3.0vw;
+		font-family: 'Arial';
+	}
+
+	#Texto-Apres
+	{
+		font-family: 'Arial';
 	}
 	#Pessoal
 	{
@@ -543,6 +549,7 @@ h3
 		margin-right: 50px; /*Espaço entre o brower direito e o texto*/
 		margin-left: -60px; /*Espaço entre o brower esquerdo e o texto*/
 		font-size:2.0vw ; /*Tamnho da fonte*/
+		font-family: 'Arial';
 	}
 	#Icon
 	{
