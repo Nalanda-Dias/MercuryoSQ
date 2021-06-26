@@ -397,7 +397,66 @@ label[for="Botão_Menu"]
 	}
 
 }
-	
+
+/*Configuração para tela do computador de 1386px*/
+@media only screen and (max-width: 1386px)
+{
+	#Barra_Navegação /*Nav*/
+	{
+		margin-left: 300px; /*Espaço entre o brower esquerdo a o nav*/
+		margin-top: -77px; /*Espaço entre o topo do brower e o Nav */
+	}
+
+	#Logo /*Img*/
+	{
+		width: 11%; /*Largura da logo*/
+		margin-top: -3px; /*Espaço entre o topo do brower e a logo*/
+	}
+
+	#text
+	{
+		margin-left: -1150px;
+	}
+	#Imagens
+	{
+		margin-left: 600px;
+	}
+
+	#Imagens1
+	{
+		margin-left: -700px; /*Espaço entre o brower esquerdo e as imagens*/
+	}
+
+	#Legenda /*Titulo das imagens*/
+	{
+		padding-right: 100px; /*Espaço ao redor do conteudo na direita*/
+		padding-left: 890px; /*Espaço ao redor do conteudo a esquerda*/
+	}
+
+	#Legenda2 /*Titulo de desenvolvimento de sistemas*/
+	{
+		padding-right: 100px; /*Espaço ao redor do conteudo na direita*/
+		padding-left: 826px; /*Espaço ao redor do conteudo a esquerda*/
+	}
+
+	#Text
+	{
+		padding-right: 100px; /*Espaço ao redor do conteudo na direita*/
+		padding-left: 700px; /*Espaço ao redor do conteudo a esquerda*/
+	}
+
+	#Legenda1 /*Titulo das imagens*/
+	{
+		padding-right: 100px; /*Espaço ao redor do conteudo na direita*/
+		padding-left: 250px; /*Espaço ao redor do conteudo a esquerda*/
+	}
+
+	#Text1
+	{
+		padding-right: 800px; /*Espaço ao redor do conteudo na direita*/
+		padding-left: 100px; /*Espaço ao redor do conteudo a esquerda*/
+	}
+}
 /*Configuração para tela do computador de 1024px*/
 @media only screen and (max-width: 1280px)
 {
