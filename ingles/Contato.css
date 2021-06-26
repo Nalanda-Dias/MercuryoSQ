@@ -316,6 +316,47 @@ iframe
 	}
 	
 }
+
+/*Configuração para tela do computador de 1386px*/
+@media only screen and (max-width: 1386px)
+{
+	#Barra_Navegação /*Nav*/
+	{
+		margin-left: 300px; /*Espaço entre o brower esquerdo a o nav*/
+		margin-top: -77px; /*Espaço entre o topo do brower e o Nav */
+	}
+
+	#Barra_Navegação ul li /*Nav + ul + li*/
+	{
+		 /*Espaço entre as os Titulo da Nav*/
+	}
+
+	#Barra_Navegação ul ul li /*Nav + ul + ul + li*/
+	{
+		border: none;
+	}
+	#Logo /*Img*/
+	{
+		width: 11%; /*Largura da logo*/
+		margin-top: -3px; /*Espaço entre o topo do brower e a logo*/
+	}
+
+	table
+	{
+		margin-left: 220px; /*Espaço entre o brower esquerdo e o formulário*/
+	}
+
+	iframe
+	{
+		margin-left: -140px; /*Espaço entre o mapa e a esquerda do brower*/
+	}
+
+	#Titulo1
+	{
+		margin-left: 200px;
+	}
+	
+}
 /*Configuração para tela do computador de 1024px*/
 @media only screen and (max-width: 1280px)
 {
