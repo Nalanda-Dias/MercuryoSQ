@@ -220,8 +220,50 @@ label[for="Botão_Menu"]
 	{
 		margin-left: 44%; /*Espaço entre o brower esquerdo e os botões*/
 	}
+}
 
-/*Configuração para tela do computador de 1024px*/
+/*Configuração para tela do computador de 1280px*/
+@media only screen and (max-width: 1386px)
+{
+	#Barra_Navegação /*Nav*/
+	{
+		margin-left: 300px; /*Espaço entre o brower esquerdo a o nav*/
+		margin-top: -77px; /*Espaço entre o topo do brower e o Nav */
+	}
+
+	#Barra_Navegação ul li /*Nav + ul + li*/
+	{
+		 /*Espaço entre as os Titulo da Nav*/
+	}
+
+	#Barra_Navegação ul ul li /*Nav + ul + ul + li*/
+	{
+		border: none;
+	}
+	#Logo /*Img*/
+	{
+		width: 11%; /*Largura da logo*/
+		margin-top: -3px; /*Espaço entre o topo do brower e a logo*/
+	}
+
+	#Conteudo
+	{
+		font-size: 2.8vw; /*Tamanho da fonte*/
+		height: 100px; /*Altura do conteudo*/
+		margin-left: 300px;/*Espaço entre o brower esquedo e o conteudo*/
+	}
+
+	#Imagens_Slides
+	{
+		margin-left: 360px; /*ESpaço entre o brower esquerdo e as imagens*/
+	}
+
+	#Botões_Slide
+	{
+		margin-left: 44%; /*Espaço entre o brower esquerdo e os botões*/
+	}
+}
+/*Configuração para tela do computador de 1280px*/
 @media only screen and (max-width: 1280px)
 {
 	#Barra_Navegação /*Nav*/
