@@ -688,6 +688,7 @@ label[for="Botão_Menu"]
 		margin-left: 15px; /*Espaço entre o broweer esquerdo e as perguntas*/
 		font-size: 2.0vw;
 		width: 370px;
+		font-family: 'Arial';
 	}
 
 	#Resposta
@@ -696,6 +697,7 @@ label[for="Botão_Menu"]
 		font-size: 2.0vw;
 		overflow: hidden;
 		width: 200px;
+		font-family: 'Arial';
 	}
 
 	/*Footer*/
