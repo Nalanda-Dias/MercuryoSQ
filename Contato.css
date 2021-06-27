@@ -779,10 +779,11 @@ iframe
 		display: inline;
 	}
 
+	
 	/*Conteudo*/
 	input[type=reset]
 	{
-		margin-left: -250px;
+		margin-left: -200px;
 		font-size: 4.0vw;
 	}
 
@@ -803,12 +804,14 @@ iframe
 
 	label
 	{
+		font-family: 'Arial';
 		font-size: 3.0vw;
 	}
 
 	section
 	{
     	width: 100px; /*Largura das formulário*/
+    	font-family: 'Arial';
 	}
 
 	#Titulo
@@ -824,28 +827,33 @@ iframe
 	#txtnome
 	{
 		width: 200px;
+		font-family: 'Arial';
 	}
 
 	#txtdo
 	{
   		width: 350px;
   		margin-left: -200px;
+  		font-family: 'Arial';
 	}
 
 	#txtemail
 	{
 		width: 200px;
 		margin-left: -280px;
+		font-family: 'Arial';
 	}
 
 	#txttelefone
 	{
 		margin-left: -260px;
+		font-family: 'Arial';
 	}
 
 	#txtopção
 	{
 		margin-left: -230px;
+		font-family: 'Arial';
 	}
 
 	/*Footer*/
