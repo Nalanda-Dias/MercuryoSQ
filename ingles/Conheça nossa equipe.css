@@ -486,7 +486,7 @@ h3
  	
  	#Cabeçalho
  	{
- 		width: 500px;
+ 		width: 100%;
  	}
 
  	/*Barra de navegação*/
@@ -496,6 +496,142 @@ h3
 		margin-left: -100%; /*Espaço entre o brower esquerdo e nav*/
 		transition: all .3s; /*Entrada e saida do Nav*/
 		width: 22%; /*Largura do Nav*/
+		background-color: rgb(5, 25, 35);
+		text-align: center;
+		position: relative;
+ 	}
+
+ 	#Barra_Navegação ul li /*Nav + ul + li*/
+ 	{
+ 		float: none; /*Um embaixo do outro */
+ 	}
+
+ 	#Barra_Navegação ul ul
+ 	{
+ 		position: static; /*posicionado de acordo com o fluxo normal da página*/
+ 		max-height: 0; /*Deixa todos juntos, sem espaço*/
+ 		overflow: hidden;
+ 	}
+
+ 	#Barra_Navegação ul li:hover ul
+ 	{
+ 		height: auto; 
+		max-height: 700px;
+ 	}
+
+ 	#Barra_Navegação a /*Nav + a*/
+	{
+		margin-left: -15px;
+		font-size: 4.0vw;
+		font-family: 'Arial';
+	}
+
+ 	#Logo /*Img*/
+	{
+		width: 25%; /*Largura da logo*/
+		padding: 13px; /*Espaço entre a logo e o header*/
+		margin-left: 100px; /*Espaço entre o brower esquerdo e a logo*/
+		margin-top: -105px; /*Espaço entre o topo do brower e a logo*/
+		margin-bottom: 80px; /*Espaço entre a parte de baixo do header e a logo*/
+	}
+
+	/*Idioma*/
+	#Inglês
+	{
+		width: 20px;
+		margin-right: 120px; /*Espaço entre o brower direito e a logo do inglês*/
+		margin-top: -80px; /*Espaço entre o topo do brower e a logo do Inglês*/
+		float: right; /*Posicionado a direita*/
+	}
+
+	#animação
+	{
+		overflow: hidden;
+		display: inline;
+	}
+	/*Conteudo*/
+	#Titulo
+	{
+		font-size: 8.5vw; /*Tamnho da fonte*/
+	}
+	#text
+	{
+		margin-left: 20px;
+		font-size: 3.0vw;
+		font-family: 'Arial';
+	}
+
+	#Texto-Apres
+	{
+		font-family: 'Arial';
+	}
+	#Pessoal
+	{
+		margin-left: 140px; /*Espaço entre a esquerda do brower e o pessoal*/
+		margin-right: 10px; /*Espaço entre a esquerda do brower e o pessoal*/
+	}
+
+	#Pessoal1
+	{
+		margin-left: 140px; /*Espaço entre a esquerda do brower e o pessoal*/
+	}
+
+	/*Footer*/
+	#Rodapé
+	{
+		width: 100%;
+		margin-top: 4550px;/*Espaço entre o header e o footer*/
+	}
+	#Text
+	{
+		margin-right: 50px; /*Espaço entre o brower direito e o texto*/
+		margin-left: -60px; /*Espaço entre o brower esquerdo e o texto*/
+		font-size:2.0vw ; /*Tamnho da fonte*/
+		font-family: 'Arial';
+	}
+	#Icon
+	{
+		margin-top: 10px;
+		margin-left: 10px;
+		margin-right: 5px;
+		width: 25px; /*Largura das redes sociais*/
+	}
+
+}
+
+/*Configuração para tela do celular*/
+@media only screen and (max-width: 400px)
+{
+	body
+	{
+		overflow-x: hidden;
+	}
+	/*Botão do Menu*/
+	label[for="Botão_Menu"]
+	{
+		display: block; /*Faz o botão aparacer*/
+		margin-left: 10px;
+		padding-left: 10px; /*Espaço entre a logo e o header*/
+		padding-top: 30px;
+	}
+
+ 	#Botão_Menu:checked ~ #Barra_Navegação
+ 	{
+ 		margin-left: 0; /*Faz com que o botão funcione*/
+ 	}
+ 	
+ 	#Cabeçalho
+ 	{
+ 		width: 100%;
+ 	}
+
+ 	/*Barra de navegação*/
+ 	#Barra_Navegação
+ 	{
+ 		margin-top: -70px; /*Espaço entre o topo do brower e o Nav*/
+		margin-left: -100%; /*Espaço entre o brower esquerdo e nav*/
+		transition: all .3s; /*Entrada e saida do Nav*/
+		width: 28%; /*Largura do Nav*/
 		background-color: rgb(5, 25, 35);
 		text-align: center;
 		position: relative;
@@ -544,9 +680,15 @@ h3
 		float: right; /*Posicionado a direita*/
 	}
 
+	#animação
+	{
+		overflow: hidden;
+		display:inline;
+	}
 	/*Conteudo*/
 	#Titulo
 	{
+		margin-left: 1px;
 		font-size: 8.5vw; /*Tamnho da fonte*/
 	}
 	#text
@@ -562,34 +704,34 @@ h3
 	}
 	#Pessoal
 	{
-		margin-left: 80px; /*Espaço entre a esquerda do brower e o pessoal*/
+		margin-left: 40px; /*Espaço entre a esquerda do brower e o pessoal*/
 		margin-right: 10px; /*Espaço entre a esquerda do brower e o pessoal*/
 	}
 
 	#Pessoal1
 	{
-		margin-left: 80px; /*Espaço entre a esquerda do brower e o pessoal*/
+		margin-left: 40px; /*Espaço entre a esquerda do brower e o pessoal*/
 	}
 
 	/*Footer*/
 	#Rodapé
 	{
-		width: 500px;
+		width: 100%;
 		margin-top: 4550px;/*Espaço entre o header e o footer*/
 	}
 	#Text
 	{
-		margin-right: 50px; /*Espaço entre o brower direito e o texto*/
-		margin-left: -60px; /*Espaço entre o brower esquerdo e o texto*/
-		font-size:2.0vw ; /*Tamnho da fonte*/
+		margin-right: 50px;
+		margin-left: -60px;
+		font-size:1.8vw ;
 		font-family: 'Arial';
 	}
 	#Icon
 	{
 		margin-top: 10px;
-		margin-left: 10px;
-		margin-right: 5px;
-		width: 25px; /*Largura das redes sociais*/
+		margin-left: -10px;
+		margin-right: 2px;
+		width: 30px; /*Largura das redes sociais*/
 	}
 
 }
