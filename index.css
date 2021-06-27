@@ -598,7 +598,7 @@ label[for="Botão_Menu"]
  		margin-top: -70px; /*Espaço entre o topo do brower e o Nav*/
 		margin-left: -100%; /*Espaço entre o brower esquerdo e nav*/
 		transition: all .3s; /*Entrada e saida do Nav*/
-		width: 22%; /*Largura do Nav*/
+		width: 28%; /*Largura do Nav*/
 		background-color: rgb(5, 25, 35);
 		text-align: center;
 		position: relative;
