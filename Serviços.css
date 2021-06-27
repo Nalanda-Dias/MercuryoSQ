@@ -788,7 +788,7 @@ label[for="Botão_Menu"]
 		width: 25%; /*Largura da logo*/
 		padding: 13px; /*Espaço entre a logo e o header*/
 		margin-left: 100px; /*Espaço entre o brower esquerdo e a logo*/
-		margin-top: -95px; /*Espaço entre o topo do brower e a logo*/
+		margin-top: -105px; /*Espaço entre o topo do brower e a logo*/
 		margin-bottom: 80px; /*Espaço entre a parte de baixo do header e a logo*/
 	}
 
@@ -803,6 +803,7 @@ label[for="Botão_Menu"]
 	#animação
 	{
 		overflow: hidden;
+		display: inline;
 	}
 	#Titulo
 	{
@@ -836,14 +837,14 @@ label[for="Botão_Menu"]
 	{
 		font-family: 'Arial';
 		font-size: 2.5vw;
-		padding-left: 165px; /*Espaço ao redor do conteudo a esquerda*/
+		padding-left: 235px; /*Espaço ao redor do conteudo a esquerda*/
 	}
 
 	#Legenda2 /*Titulo de desenvolvimento de sistemas*/
 	{
 		font-family: 'Arial';
 		font-size: 2.5vw;
-		padding-left: 130px; /*Espaço ao redor do conteudo a esquerda*/
+		padding-left: 190px; /*Espaço ao redor do conteudo a esquerda*/
 	}
 
 	#Text /*Analise + software + criação de site*/
@@ -858,7 +859,7 @@ label[for="Botão_Menu"]
 	{
 		font-family: 'Arial';
 		font-size: 2.5vw;
-		padding-left: 165px; /*Espaço ao redor do conteudo a esquerda*/
+		padding-left: 235px; /*Espaço ao redor do conteudo a esquerda*/
 	}
 
 	#Text1
@@ -891,3 +892,183 @@ label[for="Botão_Menu"]
 	}
 
 }
+
+/*Configuração para tela do celular*/
+@media only screen and (max-width: 400px)
+{
+	body
+	{
+		overflow-x: hidden;
+	}
+
+	/*Botão do Menu*/
+	label[for="Botão_Menu"]
+	{
+		display: block; /*Faz o botão aparacer*/
+		margin-left: 10px;
+		padding-left: 10px; /*Espaço entre a logo e o header*/
+		padding-top: 30px;
+	}
+
+ 	#Botão_Menu:checked ~ #Barra_Navegação
+ 	{
+ 		margin-left: 0; /*Faz com que o botão funcione*/
+ 	}
+ 	
+ 	#Cabeçalho
+ 	{
+ 		width: 100%;
+ 	}
+
+ 	/*Barra de navegação*/
+ 	#Barra_Navegação
+ 	{
+ 		margin-top: -70px; /*Espaço entre o topo do brower e o Nav*/
+		margin-left: -100%; /*Espaço entre o brower esquerdo e nav*/
+		transition: all .3s; /*Entrada e saida do Nav*/
+		width: 28%; /*Largura do Nav*/
+		background-color: rgb(5, 25, 35);
+		text-align: center;
+		position: relative;
+ 	}
+
+ 	#Barra_Navegação ul li /*Nav + ul + li*/
+ 	{
+ 		float: none; /*Um embaixo do outro */
+ 	}
+
+ 	#Barra_Navegação ul ul
+ 	{
+ 		position: static; /*posicionado de acordo com o fluxo normal da página*/
+ 		max-height: 0; /*Deixa todos juntos, sem espaço*/
+ 		overflow: hidden;
+ 	}
+
+ 	#Barra_Navegação ul li:hover ul
+ 	{
+ 		height: auto; 
+		max-height: 700px;
+ 	}
+
+ 	#Barra_Navegação a /*Nav + a*/
+	{
+		margin-left: -15px;
+		font-size: 4.0vw;
+		font-family: 'Arial';
+	}
+
+ 	#Logo /*Img*/
+	{
+		width: 25%; /*Largura da logo*/
+		padding: 13px; /*Espaço entre a logo e o header*/
+		margin-left: 100px; /*Espaço entre o brower esquerdo e a logo*/
+		margin-top: -95px; /*Espaço entre o topo do brower e a logo*/
+		margin-bottom: 80px; /*Espaço entre a parte de baixo do header e a logo*/
+	}
+
+	/*Idioma*/
+	#Inglês
+	{
+		width: 20px;
+		margin-right: 120px; /*Espaço entre o brower direito e a logo do inglês*/
+		margin-top: -80px; /*Espaço entre o topo do brower e a logo do Inglês*/
+		float: right; /*Posicionado a direita*/
+	}
+	#animação
+	{
+		overflow: hidden;
+		display: inline;
+	}
+
+	#anima
+	{
+		margin-top: 50px;
+	}
+	#Titulo
+	{
+		margin-left: 10px;
+		font-size: 8.5vw; /*Tamnho da fonte*/
+	}
+
+	/*Conteudo*/
+	#text /*Explicaçaõ*/
+	{
+		font-family: 'Arial';
+		margin-left: 40px;
+		font-size: 3.0vw;
+		font-family: 'Arial';
+	}
+
+	#Imagens /*Analise + software + criação de site*/
+	{
+		width: 80px;
+		margin-left: 10px; /*Espaço entre o brower esquerdo e as imagens*/
+		margin-top: 130px;
+	}
+
+	#Imagens1 /*Banco de dados + Designer Digital */
+	{
+		width: 80px;
+		margin-left: -10px; /*Espaço entre o brower esquerdo e as imagens*/
+		margin-top: 180px;
+	}
+
+	#Legenda /*Titulo das imagens*/
+	{
+		font-family: 'Arial';
+		font-size: 2.5vw;
+		padding-left: 160px; /*Espaço ao redor do conteudo a esquerda*/
+	}
+
+	#Legenda2 /*Titulo de desenvolvimento de sistemas*/
+	{
+		font-family: 'Arial';
+		font-size: 2.5vw;
+		padding-left: 130px; /*Espaço ao redor do conteudo a esquerda*/
+	}
+
+	#Text /*Analise + software + criação de site*/
+	{
+		font-family: 'Arial';
+		font-size: 2.5vw;
+		padding-right: -4px; /*Espaço ao redor do conteudo na direita*/
+		padding-left: 100px; /*Espaço ao redor do conteudo a esquerda*/
+	}
+
+	#Legenda1 /*Banco de dados + designer digital*/
+	{
+		font-family: 'Arial';
+		font-size: 2.5vw;
+		padding-left: 155px; /*Espaço ao redor do conteudo a esquerda*/
+	}
+
+	#Text1
+	{
+		font-family: 'Arial';
+		font-size: 2.5vw;
+		padding-right: 70px; /*Espaço ao redor do conteudo na direita*/
+		padding-left: 50px; /*Espaço ao redor do conteudo a esquerda*/
+	}
+
+	/*Footer*/
+	#Rodapé
+	{
+		width: 100%;
+		margin-top: 250px;/*Espaço entre o header e o footer*/
+	}
+	#Texto
+	{
+		margin-right: 50px;
+		margin-left: -60px;
+		font-size:1.8vw ;
+		font-family: 'Arial';
+	}
+	#Icon
+	{
+		margin-top: 10px;
+		margin-left: -10px;
+		margin-right: 2px;
+		width: 30px; /*Largura das redes sociais*/
+	}
+}
+
