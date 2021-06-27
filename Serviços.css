@@ -199,11 +199,10 @@ label[for="Botão_Menu"]
 	padding-left: 100px; /*Espaço ao redor do conteudo a esquerda*/
 	text-align: center; /*Texto centralizado*/
 }
-
 /*Animaçaõ*/
 #anima
 {
-	animation: anima 0.3s 1.0s both;
+	animation: anima 0.1s 0.2s both;
 	overflow: hidden;
 }
 
@@ -221,7 +220,7 @@ label[for="Botão_Menu"]
 
 #anim1
 {
-	animation: anima1 0.3s 3.0s both;
+	animation: anima1 0.3s 0.4s both;
 	overflow: hidden;
 	margin-top: -150px;/*Espaço entre o topo do brower e a tabela*/
 }
@@ -240,7 +239,7 @@ label[for="Botão_Menu"]
 
 #anim2
 {
-	animation: anima2 0.3s 5.0s both;
+	animation: anima2 0.5s 0.6s both;
 	overflow: hidden;
 	margin-top: -80px;/*Espaço entre o topo do brower e a tabela*/
 }
@@ -258,7 +257,7 @@ label[for="Botão_Menu"]
 
 #anim3
 {
-	animation: anima3 0.3s 7.0s both;
+	animation: anima3 0.7s 0.8s both;
 	overflow: hidden;
 	margin-top: -80px;/*Espaço entre o topo do brower e a tabela*/
 }
@@ -277,7 +276,7 @@ label[for="Botão_Menu"]
 
 #anim4
 {
-	animation: anima4 0.3s 9.0s both;
+	animation: anima4 0.9s 1.0s both;
 	overflow: hidden;
 	margin-top: -80px;/*Espaço entre o topo do brower e a tabela*/
 }
