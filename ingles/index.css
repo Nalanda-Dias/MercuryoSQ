@@ -220,7 +220,6 @@ label[for="Botão_Menu"]
 	{
 		margin-left: 44%; /*Espaço entre o brower esquerdo e os botões*/
 	}
-}
 
 /*Configuração para tela do computador de 1280px*/
 @media only screen and (max-width: 1386px)
@@ -263,6 +262,7 @@ label[for="Botão_Menu"]
 		margin-left: 44%; /*Espaço entre o brower esquerdo e os botões*/
 	}
 }
+
 /*Configuração para tela do computador de 1280px*/
 @media only screen and (max-width: 1280px)
 {
@@ -465,7 +465,7 @@ label[for="Botão_Menu"]
  	
  	#Cabeçalho
  	{
- 		width: 500px;
+ 		width: 100%;
  	}
 
  	/*Barra de navegação*/
@@ -475,6 +475,135 @@ label[for="Botão_Menu"]
 		margin-left: -100%; /*Espaço entre o brower esquerdo e nav*/
 		transition: all .3s; /*Entrada e saida do Nav*/
 		width: 22%; /*Largura do Nav*/
+		background-color: rgb(5, 25, 35);
+		text-align: center;
+		position: relative;
+ 	}
+
+ 	#Barra_Navegação ul li /*Nav + ul + li*/
+ 	{
+ 		float: none; /*Um embaixo do outro */
+ 	}
+
+ 	#Barra_Navegação ul ul
+ 	{
+ 		position: static; /*posicionado de acordo com o fluxo normal da página*/
+ 		max-height: 0; /*Deixa todos juntos, sem espaço*/
+ 		overflow: hidden;
+ 	}
+
+ 	#Barra_Navegação ul li:hover ul
+ 	{
+ 		height: auto; 
+		max-height: 700px;
+ 	}
+
+ 	#Barra_Navegação a /*Nav + a*/
+	{
+		margin-left: -15px;
+		font-size: 4.0vw;
+		font-family: 'Arial';
+	}
+
+ 	#Logo /*Img*/
+	{
+		width: 25%; /*Largura da logo*/
+		padding: 13px; /*Espaço entre a logo e o header*/
+		margin-left: 100px; /*Espaço entre o brower esquerdo e a logo*/
+		margin-top: -105px; /*Espaço entre o topo do brower e a logo*/
+		margin-bottom: 80px; /*Espaço entre a parte de baixo do header e a logo*/
+	}
+
+	/*Idioma*/
+	#Inglês
+	{
+		width: 20px;
+		margin-right: 120px; /*Espaço entre o brower direito e a logo do inglês*/
+		margin-top: -80px; /*Espaço entre o topo do brower e a logo do Inglês*/
+		float: right; /*Posicionado a direita*/
+	}
+
+	#animação
+	{
+		overflow: hidden;
+	}
+
+	/*Conteudo*/
+	#Conteudo
+	{
+		margin-left: 125px; /*Espaço entre a esquerda do brower e o conteudo*/
+		width: 350px;
+		height: 70px;
+		font-size: 20px; /*Tamanho da fonte*/
+	}
+
+	#Imagens_Slides
+	{
+		width: 350px;
+		height: 250px ;
+		margin-left: 125px; /*ESpaço entre o brower esquerdo e as imagens*/
+	}
+
+	#Botões_Slide
+	{
+		margin-top: -2px;
+		margin-left: 40%; /*Espaço entre o brower esquerdo e os botões*/
+	}
+
+	/*Footer*/
+	#Rodapé
+	{
+		width: 100%;
+		margin-top: 250px;/*Espaço entre o header e o footer*/
+	}
+	#Texto
+	{
+		margin-right: 50px;
+		margin-left: -60px;
+		font-size:2.0vw ;
+	}
+	#Icon
+	{
+		margin-top: 10px;
+		margin-left: 10px;
+		margin-right: 5px;
+		width: 25px; /*Largura das redes sociais*/
+	}
+
+}
+/*Configuração para tela do celular*/
+@media only screen and (max-width: 400px)
+{
+	body
+	{
+		overflow-x: hidden;
+	}
+	/*Botão do Menu*/
+	label[for="Botão_Menu"]
+	{
+		display: block; /*Faz o botão aparacer*/
+		margin-left: 10px;
+		padding-left: 10px; /*Espaço entre a logo e o header*/
+		padding-top: 30px;
+	}
+
+ 	#Botão_Menu:checked ~ #Barra_Navegação
+ 	{
+ 		margin-left: 0; /*Faz com que o botão funcione*/
+ 	}
+ 	
+ 	#Cabeçalho
+ 	{
+ 		width: 100%;
+ 	}
+
+ 	/*Barra de navegação*/
+ 	#Barra_Navegação
+ 	{
+ 		margin-top: -70px; /*Espaço entre o topo do brower e o Nav*/
+		margin-left: -100%; /*Espaço entre o brower esquerdo e nav*/
+		transition: all .3s; /*Entrada e saida do Nav*/
+		width: 28%; /*Largura do Nav*/
 		background-color: rgb(5, 25, 35);
 		text-align: center;
 		position: relative;
@@ -526,43 +655,49 @@ label[for="Botão_Menu"]
 	/*Conteudo*/
 	#Conteudo
 	{
-		margin-left: 65px; /*Espaço entre a esquerda do brower e o conteudo*/
+		margin-left: 25px; /*Espaço entre a esquerda do brower e o conteudo*/
 		width: 350px;
-		height: 70px;
-		font-size: 20px; /*Tamanho da fonte*/
+		height: 50px;
+		font-size: 16px; /*Tamanho da fonte*/
+	}
+
+	#animação
+	{
+		overflow: hidden;
 	}
 
 	#Imagens_Slides
 	{
-		width: 350px;
-		height: 250px ;
-		margin-left: 65px; /*ESpaço entre o brower esquerdo e as imagens*/
+		width: 250px;
+		height: 150px ;
+		margin-left: 75px; /*ESpaço entre o brower esquerdo e as imagens*/
 	}
 
 	#Botões_Slide
 	{
 		margin-top: -2px;
-		margin-left: 40%; /*Espaço entre o brower esquerdo e os botões*/
+		margin-left: 37%; /*Espaço entre o brower esquerdo e os botões*/
 	}
 
 	/*Footer*/
 	#Rodapé
 	{
-		width: 500px;
+		width: 100%;
 		margin-top: 250px;/*Espaço entre o header e o footer*/
 	}
 	#Texto
 	{
 		margin-right: 50px;
 		margin-left: -60px;
-		font-size:2.0vw ;
+		font-size:1.8vw ;
+		font-family: 'Arial';
 	}
 	#Icon
 	{
 		margin-top: 10px;
-		margin-left: 10px;
-		margin-right: 5px;
-		width: 25px; /*Largura das redes sociais*/
+		margin-left: -10px;
+		margin-right: 2px;
+		width: 30px; /*Largura das redes sociais*/
 	}
 
 }
