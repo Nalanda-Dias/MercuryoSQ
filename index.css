@@ -465,7 +465,7 @@ label[for="Botão_Menu"]
  	
  	#Cabeçalho
  	{
- 		width: 500px;
+ 		width: 100%;
  	}
 
  	/*Barra de navegação*/
@@ -510,7 +510,7 @@ label[for="Botão_Menu"]
 		width: 25%; /*Largura da logo*/
 		padding: 13px; /*Espaço entre a logo e o header*/
 		margin-left: 100px; /*Espaço entre o brower esquerdo e a logo*/
-		margin-top: -95px; /*Espaço entre o topo do brower e a logo*/
+		margin-top: -105px; /*Espaço entre o topo do brower e a logo*/
 		margin-bottom: 80px; /*Espaço entre a parte de baixo do header e a logo*/
 	}
 
@@ -523,10 +523,15 @@ label[for="Botão_Menu"]
 		float: right; /*Posicionado a direita*/
 	}
 
+	#animação
+	{
+		overflow: hidden;
+	}
+
 	/*Conteudo*/
 	#Conteudo
 	{
-		margin-left: 65px; /*Espaço entre a esquerda do brower e o conteudo*/
+		margin-left: 125px; /*Espaço entre a esquerda do brower e o conteudo*/
 		width: 350px;
 		height: 70px;
 		font-size: 20px; /*Tamanho da fonte*/
@@ -536,7 +541,7 @@ label[for="Botão_Menu"]
 	{
 		width: 350px;
 		height: 250px ;
-		margin-left: 65px; /*ESpaço entre o brower esquerdo e as imagens*/
+		margin-left: 125px; /*ESpaço entre o brower esquerdo e as imagens*/
 	}
 
 	#Botões_Slide
@@ -548,7 +553,7 @@ label[for="Botão_Menu"]
 	/*Footer*/
 	#Rodapé
 	{
-		width: 500px;
+		width: 100%;
 		margin-top: 250px;/*Espaço entre o header e o footer*/
 	}
 	#Texto
@@ -564,8 +569,8 @@ label[for="Botão_Menu"]
 		margin-right: 5px;
 		width: 25px; /*Largura das redes sociais*/
 	}
-}
 
+}
 /*Configuração para tela do celular*/
 @media only screen and (max-width: 400px)
 {
