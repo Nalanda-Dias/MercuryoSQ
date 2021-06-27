@@ -806,6 +806,7 @@ label[for="Botão_Menu"]
 	}
 	#Titulo
 	{
+		margin-left: 100px;
 		font-size: 8.5vw; /*Tamnho da fonte*/
 	}
 
