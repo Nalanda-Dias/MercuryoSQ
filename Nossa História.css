@@ -243,7 +243,7 @@ label[for="Botão_Menu"]
 
 }
 
-/*Configuração para tela do computador de 1386px*/
+/*Configuração para tela do computador de 1280px*/
 @media only screen and (max-width: 1386px)
 {
 	#Barra_Navegação /*Nav*/
@@ -293,7 +293,6 @@ label[for="Botão_Menu"]
 		float: left;
 	}
 }
-
 /*Configuração para tela do computador de 1024px*/
 @media only screen and (max-width: 1280px)
 {
@@ -489,7 +488,7 @@ label[for="Botão_Menu"]
  	
  	#Cabeçalho
  	{
- 		width: 500px;
+ 		width: 100%;
  	}
 
  	/*Barra de navegação*/
@@ -534,7 +533,7 @@ label[for="Botão_Menu"]
 		width: 25%; /*Largura da logo*/
 		padding: 13px; /*Espaço entre a logo e o header*/
 		margin-left: 100px; /*Espaço entre o brower esquerdo e a logo*/
-		margin-top: -95px; /*Espaço entre o topo do brower e a logo*/
+		margin-top: -105px; /*Espaço entre o topo do brower e a logo*/
 		margin-bottom: 80px; /*Espaço entre a parte de baixo do header e a logo*/
 	}
 
@@ -547,12 +546,18 @@ label[for="Botão_Menu"]
 		float: right; /*Posicionado a direita*/
 	}
 
+	#animação
+	{
+		overflow: hidden;
+		display: inline;
+	}
+
 	/*Conteudo*/
 	#História
 	{
-		width: 400px; /*Largura da história*/
+		width: 500px; /*Largura da história*/
 		font-size: 5.5vw; /*Tamanho da fonte*/
-		margin-left: 35px; /*Espaço entre o brower esquerdo*/
+		margin-left: 55px; /*Espaço entre o brower esquerdo*/
 		font-family: 'Arial';
 	}
 
@@ -561,11 +566,6 @@ label[for="Botão_Menu"]
 		font-size: 8.5vw; /*Tamnho da fonte*/
 	}
 
-	table 
-	{
-		table-layout: auto;
-	}
-	
 	#txt-MVV
 	{
 		display: block;
@@ -575,7 +575,7 @@ label[for="Botão_Menu"]
 	#MVV
 	{
 		width: 200px; /*Largura das imagens*/
-		margin-left: -100px;
+		margin-left: 40px;
 	}
 
 	#Textos-MVV
@@ -583,14 +583,14 @@ label[for="Botão_Menu"]
 		font-size: 5.5vw; /*Tamanho da fonte dos textos*/
 		font-family: 'Arial';
 		display: block;
-		margin-left: -100px;
+		margin-left: 40px;
 	}
 
 
 	/*Footer*/
 	#Rodapé
 	{
-		width: 500px;
+		width: 100%;
 		margin-top: 250px;/*Espaço entre o header e o footer*/
 	}
 	#Texto
@@ -598,6 +598,7 @@ label[for="Botão_Menu"]
 		margin-right: 50px; /*Espaço entre o brower direito e o texto*/
 		margin-left: -60px; /*Espaço entre o brower esquerdo e o texto*/
 		font-size:2.0vw ; /*Tamnho da fonte*/
+		font-family: 'Arial';
 	}
 	#Icon
 	{
@@ -694,20 +695,21 @@ label[for="Botão_Menu"]
 	#animação
 	{
 		overflow: hidden;
+		display: inline;
 	}
 
 	/*Conteudo*/
 	#História
 	{
-		width: 200px; /*Largura da história*/
+		width: 300px; /*Largura da história*/
 		font-size: 4.5vw; /*Tamanho da fonte*/
-		margin-left: 65px; /*Espaço entre o brower esquerdo*/
+		margin-left: 55px; /*Espaço entre o brower esquerdo*/
 		font-family: 'Arial';
 	}
 
 	#Titulo
 	{
-		margin-left: 50px ;
+		margin-left: 17px ;
 		font-size: 8.5vw; /*Tamnho da fonte*/
 	}
 
@@ -720,7 +722,7 @@ label[for="Botão_Menu"]
 	}
 	#MVV
 	{
-		width: 200px; /*Largura das imagens*/
+		width: 150px; /*Largura das imagens*/
 		margin-left: 40px;
 	}
 
