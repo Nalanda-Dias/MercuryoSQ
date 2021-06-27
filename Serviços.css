@@ -804,6 +804,16 @@ label[for="Botão_Menu"]
 	{
 		overflow: hidden;
 	}
+
+	#animaçã
+	{
+		overflow: hidden;
+		display: inline;
+	}
+	#anima
+	{
+		margin-top: 60px;
+	}
 	#Titulo
 	{
 		font-size: 8.5vw; /*Tamnho da fonte*/
@@ -978,9 +988,14 @@ label[for="Botão_Menu"]
 		overflow: hidden;
 	}
 
+	#animaçã
+	{
+		overflow: hidden;
+		display: inline;
+	}
 	#anima
 	{
-		margin-top: 50px;
+		margin-top: 60px;
 	}
 	#Titulo
 	{
