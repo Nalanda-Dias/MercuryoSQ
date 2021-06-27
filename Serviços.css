@@ -872,7 +872,7 @@ label[for="Botão_Menu"]
 	/*Footer*/
 	#Rodapé
 	{
-		width: 500px;
+		width: 100%;
 		margin-top: 180px;/*Espaço entre o header e o footer*/
 	}
 	#Texto
